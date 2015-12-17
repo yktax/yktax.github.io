@@ -1,0 +1,10 @@
+<div id="navigation">
+  <ul id="navi">
+    <li<% if current_page.path == 'index.html' %> class="here"<% end %>><%= link_to 'ご挨拶', '/index.html', :relative => true %></li>
+    <li<% if current_page.path == 'profile.html' %> class="here"<% end %>><%= link_to 'プロフィール', '/profile.html', :relative => true %></li>
+    <li<% if current_page.path == 'gyomu-annai.html' %> class="here"<% end %>><%= link_to '業務案内', '/gyomu-annai.html', :relative => true %></li>
+    <li<% if current_page.path == 'needs.html' %> class="here"<% end %>><%= link_to 'こんな時に・・・', '/needs.html', :relative => true %></li>
+    <li<% if current_page.path == 'contact.html' %> class="here"<% end %>><%= link_to 'お問い合わせ', '/contact.html', :relative => true %></li>
+    <li><%= link_to 'Blog', 'http://yktax.blog100.fc2.com/' %></li>
+  </ul>
+</div>

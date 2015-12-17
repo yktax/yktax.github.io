@@ -1,0 +1,35 @@
+---
+title: お問い合わせ
+---
+
+<div id="needs">
+  <h2>お問い合わせ</h2>
+
+  <p>お問い合わせありがとうございます。</p>
+  <p>下記のフォームにご記入の上、送信して下さい。</p>
+
+  <form method="post" action="http://diycgi.diypageon.ocn.ne.jp/cgi-bin/CMMail/acoc00inx234107f01bddab?action=send">
+    <fieldset class="text">
+      <input type="hidden" name="referrer" />
+      <input type="hidden" name="redirect" />
+      <label for="name">お名前:　</label>
+      <input name="name" id="name" type="text" />
+    </fieldset>
+    <fieldset class="text">
+      <label for="vorname">フリガナ:　</label>
+      <input name="vorname" id="vorname" type="text" />
+    </fieldset>
+    <fieldset class="text">
+      <label for="email">メールアドレス:　</label>
+      <input name="email" id="email" type="text" />
+    </fieldset>
+    <fieldset>
+      <label for="kommentar">内容:　</label>
+      <textarea name="kommentar" id="kommentar" rows="5" cols="57"></textarea>
+    </fieldset>
+    <fieldset id="buttons">
+      <input type="submit" id="submit" value="送信" />
+      <input type="reset" id="reset" value="クリア" />
+    </fieldset>
+  </form>
+</div>

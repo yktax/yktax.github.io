@@ -1,0 +1,321 @@
+
+/*  -----          ブラウザスタイルの初期化          -----  */
+
+html,body {
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-size: 12px;
+	color: #505050;
+	font-family: 'MS PGothic','Hiragino Kaku Gothic Pro W3',Osaka,sans-serif;
+	margin: 18px 0;
+}
+
+p {
+	line-height: 1.5em;
+	margin: 0 0 18px 0;
+}
+
+
+/*  -----          リンクテキスト (a)          -----  */
+
+a:link, a:visited {
+	color: #95E001;
+	text-decoration: none; 
+}
+
+a:hover {
+	color: #FFA200;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #FFCC00;
+}
+
+/*  -----          コンテナ & ラッパー (#container,#wrapper)          -----  */
+
+div#container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;	
+	/*background: url(../images/grid.png);*/
+}
+
+div#wrapper {
+	width: 952px;
+	float: left;
+	margin-left: 4px;
+	margin-bottom: 2px;
+	border-top: 1px solid #C8C8C8;
+	border-bottom: 1px solid #C8C8C8;
+	padding: 33px 0;
+}
+	
+
+/*  -----           タイトル (h1)           -----  */
+
+div#header h1 {
+	height: 144px;
+	text-indent: -9999px;
+	margin: 0 0 2px 0;
+	background: url(../images/header3.jpg);
+}
+
+
+/*  -----          サブタイトル (h2,h3)          -----*/
+div#content h2 {
+	margin: 0 0 18px 18px;
+	font-size: 20px;
+	padding-top: 27px;
+	padding-bottom: 16px;
+	font-weight: bold;
+}
+
+div#gyomu-annai h2, #needs h2, #profile h2 {
+	color: #DCDCDC;
+}
+	
+div#content h3 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	text-decoration: underline;
+	margin: 36px 0 18px 36px;
+}
+
+
+/*  -----          コンテンツ (#content)          -----  */
+
+div#content {
+	width: 684px;
+	float: left;
+	padding: 0 0 36px 36px;
+}
+
+div#content p {
+	line-height: 1.5em;
+	margin: 0 0 0 27px;
+}
+
+#content div {
+	margin-bottom: 18px;
+}
+
+div#recommendation {
+	margin: 60px 0 0 98px;
+}
+
+div#recommendation p {
+	line-height: 2em;
+	text-decoration: underline;
+}
+
+#content div#here, #content div#needs {
+	margin-bottom: 0;
+}
+
+div#here p {
+	margin: 36px 0 0 36px;
+}
+
+div#target p {
+	margin-left: 27px;
+	line-height: 2em;
+}
+
+	
+/*  -----          デファニション & リスト (dl,dt,dd / ol,li)          -----  */
+
+div#content dt {
+	text-decoration: underline;
+	margin-left: 54px;
+	float: left;
+	line-height: 3em;
+}
+
+div#content dd {
+	margin-left: 180px;
+	line-height: 3em;
+}
+
+div#office {
+	margin-bottom: 54px;
+}
+
+div#office dl {
+	padding: 0;
+}
+
+div#office dt {
+	width: 5em;
+	float: left;
+	margin-left: 90px;
+}
+
+div#office dd {
+	margin-left: 198px;
+}
+
+#rireki ol li {
+	line-height: 2.5em;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+div#rireki ol {
+	margin-left: 0;
+	padding-left: 76px;
+	list-style-type: none;
+}
+
+div#rireki ol ol {
+	margin-bottom: 27px;
+	padding-left: 30px;	
+}
+
+.naiyo  {
+	margin-left: 32px;
+}
+
+.naiyo-2 {
+	margin-left: 85px;
+}
+
+div#kaikei-gyomu dt {
+	line-height: 2.5em;
+}
+
+div#kaikei-gyomu dd {
+	margin-bottom: 18px; 
+}
+
+div#kaikei-gyomu dd p {
+	line-height: 2.5em;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+div#needs dl {
+	margin: 0;
+	padding: 0;
+}
+
+div#needs dt {
+	margin: 18px 0 0 36px;
+	float: none;
+}
+
+div#needs dd {
+	line-height: 2.5em;
+	margin: 0;
+	margin-left: 72px;
+}
+
+div#needs dd p {
+	margin-left: 0;
+	padding-left: 0;
+	line-height: 2.5em;
+}	
+
+
+/*  -----          コンタクト・フォーム　(form, fieldset, label, input）          -----  */  
+
+form {
+	margin-top: 27px;
+	margin-left: 16px;
+	padding-right: 160px;
+}
+
+fieldset {
+	border: none;
+	border-top: 1px solid #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+	padding: 10px 0;
+}
+
+label {
+	color: #505050;
+	display: block;
+}
+
+.text input {
+	width: 250px;
+}
+
+#kommentar {
+	width: 400px;
+	height: 250px;
+}
+
+	
+/*  -----          ナビゲーション (#navigation)           -----  */
+
+div#navigation {
+	float:right;
+	width:195px;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	padding-left: 36px;
+	border-left: 1px solid #C8C8C8;
+}
+
+#navi {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navi li {
+	padding-left: 35px;
+	background: url(../images/navi-line.gif) no-repeat left center;
+	margin-left: 0;
+	line-height: 36px;
+}
+#navi li.here {
+  background: url(../images/navi-line-oj.gif) no-repeat left center;
+}
+
+/*  -----           エクストラ (#extra)          -----  */
+
+div#extra {
+	float:right;
+	width:195px;
+	padding: 18px 0 18px 36px;
+	border-left: 1px solid #C8C8C8;
+}
+
+div#extra div.vcard {
+	line-height: 18px;
+	color: #FFCC00;
+}
+
+div#extra div.vcard div {
+	margin-bottom: 9px;
+}
+
+#contact-link {
+	width: 20px;
+	height: 20px;
+	margin: 10px 10px 10px 28px;
+	display: block;
+	background: url(../images/mail3.gif) no-repeat top left;
+	text-indent: -9999px;
+}
+
+/*  -----          フッター (#footer)          -----  */
+
+div#footer {
+	clear: both;
+	width: 100%;
+	background: #DCDCDC;
+	color: #FFF;
+}
+
+div#footer p {
+	margin: 0;
+	padding: 5px 10px;
+	text-align: right;
+}
