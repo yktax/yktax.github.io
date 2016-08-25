@@ -1,0 +1,21 @@
+div#content dt {
+	text-decoration: underline;
+	margin-left: 29px;
+	float: left;
+	line-height: 3em;
+}
+
+div#content dd {
+	margin-left: 180px;
+	line-height: 3em;
+}
+
+div#office dt {
+	width: 5em;
+	float: left;
+	margin-left: 45px;
+}
+
+div#office dd {
+	margin-left: 198px;
+}

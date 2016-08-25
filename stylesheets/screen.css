@@ -1,0 +1,305 @@
+@charset "UTF-8";
+/*  -----          ブラウザスタイルの初期化          -----  */
+/* line 5, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+html, body {
+  margin: 0;
+  padding: 0; }
+
+/* line 10, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+body {
+  font-size: 12px;
+  color: #505050;
+  font-family: 'MS PGothic','Hiragino Kaku Gothic Pro W3',Osaka,sans-serif;
+  margin: 18px 0; }
+
+/* line 17, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+p {
+  line-height: 1.5em;
+  margin: 0 0 18px 0; }
+
+/*  -----          リンクテキスト (a)          -----  */
+/* line 25, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+a:link, a:visited {
+  color: #95E001;
+  text-decoration: none; }
+
+/* line 30, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+a:hover {
+  color: #FFA200;
+  text-decoration: underline; }
+
+/* line 35, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+a:active {
+  color: #FFCC00; }
+
+/*  -----          コンテナ & ラッパー (#container,#wrapper)          -----  */
+/* line 41, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  /*background: url(../images/grid.png);*/ }
+
+/* line 48, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#wrapper {
+  width: 952px;
+  float: left;
+  margin-left: 4px;
+  margin-bottom: 2px;
+  border-top: 1px solid #C8C8C8;
+  border-bottom: 1px solid #C8C8C8;
+  padding: 33px 0; }
+
+/*  -----           タイトル (h1)           -----  */
+/* line 61, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#header h1 {
+  height: 144px;
+  text-indent: -9999px;
+  margin: 0 0 2px 0;
+  background: url(../images/header3.jpg); }
+
+/*  -----          サブタイトル (h2,h3)          -----*/
+/* line 70, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#content h2 {
+  margin: 0 0 18px 18px;
+  font-size: 20px;
+  padding-top: 27px;
+  padding-bottom: 16px;
+  font-weight: bold; }
+
+/* line 78, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#gyomu-annai h2, #needs h2, #profile h2 {
+  color: #DCDCDC; }
+
+/* line 82, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#content h3 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  text-decoration: underline;
+  margin: 36px 0 18px 36px; }
+
+/*  -----          コンテンツ (#content)          -----  */
+/* line 93, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#content {
+  width: 684px;
+  float: left;
+  padding: 0 0 36px 36px; }
+
+/* line 99, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#content p {
+  line-height: 1.5em;
+  margin: 0 0 0 27px; }
+
+/* line 104, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#content div {
+  margin-bottom: 18px; }
+
+/* line 108, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#recommendation {
+  margin: 60px 0 0 98px; }
+
+/* line 112, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#recommendation p {
+  line-height: 2em;
+  text-decoration: underline; }
+
+/* line 117, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#content div#here, #content div#needs {
+  margin-bottom: 0; }
+
+/* line 121, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#here p {
+  margin: 36px 0 0 36px; }
+
+/* line 125, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#target p {
+  margin-left: 27px;
+  line-height: 2em; }
+
+/*  -----          デファニション & リスト (dl,dt,dd / ol,li)          -----  */
+/* line 133, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#content dt {
+  text-decoration: underline;
+  margin-left: 54px;
+  float: left;
+  line-height: 3em; }
+
+/* line 140, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#content dd {
+  margin-left: 180px;
+  line-height: 3em; }
+
+/* line 145, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#office {
+  margin-bottom: 54px; }
+
+/* line 149, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#office dl {
+  padding: 0; }
+
+/* line 153, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#office dt {
+  width: 5em;
+  float: left;
+  margin-left: 90px; }
+
+/* line 159, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#office dd {
+  margin-left: 198px; }
+
+/* line 163, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#rireki ol li {
+  line-height: 2.5em;
+  padding-left: 0;
+  margin-left: 0; }
+
+/* line 169, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#rireki ol {
+  margin-left: 0;
+  padding-left: 76px;
+  list-style-type: none; }
+
+/* line 175, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#rireki ol ol {
+  margin-bottom: 27px;
+  padding-left: 30px; }
+
+/* line 180, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+.naiyo {
+  margin-left: 32px; }
+
+/* line 184, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+.naiyo-2 {
+  margin-left: 85px; }
+
+/* line 188, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#kaikei-gyomu dt {
+  line-height: 2.5em; }
+
+/* line 192, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#kaikei-gyomu dd {
+  margin-bottom: 18px; }
+
+/* line 196, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#kaikei-gyomu dd p {
+  line-height: 2.5em;
+  padding-left: 0;
+  margin-left: 0; }
+
+/* line 202, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#needs dl {
+  margin: 0;
+  padding: 0; }
+
+/* line 207, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#needs dt {
+  margin: 18px 0 0 36px;
+  float: none; }
+
+/* line 212, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#needs dd {
+  line-height: 2.5em;
+  margin: 0;
+  margin-left: 72px; }
+
+/* line 218, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#needs dd p {
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 2.5em; }
+
+/*  -----          コンタクト・フォーム　(form, fieldset, label, input）          -----  */
+/* line 227, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+form {
+  margin-top: 27px;
+  margin-left: 16px;
+  padding-right: 160px; }
+
+/* line 233, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+fieldset {
+  border: none;
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
+  padding: 10px 0; }
+
+/* line 240, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+label {
+  color: #505050;
+  display: block; }
+
+/* line 245, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+.text input {
+  width: 250px; }
+
+/* line 249, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#naiyo {
+  width: 400px;
+  height: 250px; }
+
+/*  -----          ナビゲーション (#navigation)           -----  */
+/* line 257, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#navigation {
+  float: right;
+  width: 195px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 36px;
+  border-left: 1px solid #C8C8C8; }
+
+/* line 266, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 272, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#navi li {
+  padding-left: 35px;
+  background: url(../images/navi-line.gif) no-repeat left center;
+  margin-left: 0;
+  line-height: 36px; }
+
+/* line 278, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#navi li.here {
+  background: url(../images/navi-line-oj.gif) no-repeat left center; }
+
+/*  -----           エクストラ (#extra)          -----  */
+/* line 284, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#extra {
+  float: right;
+  width: 195px;
+  padding: 18px 0 18px 36px;
+  border-left: 1px solid #C8C8C8; }
+
+/* line 291, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#extra div.vcard {
+  line-height: 18px;
+  color: #FFCC00; }
+
+/* line 296, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#extra div.vcard div {
+  margin-bottom: 9px; }
+
+/* line 300, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+#contact-link {
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px 10px 28px;
+  display: block;
+  background: url(../images/mail3.gif) no-repeat top left;
+  text-indent: -9999px; }
+
+/*  -----          フッター (#footer)          -----  */
+/* line 311, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#footer {
+  clear: both;
+  width: 100%;
+  background: #DCDCDC;
+  color: #FFF; }
+
+/* line 318, /Users/brianriley/src/yktax.github.io/source/stylesheets/screen.scss */
+div#footer p {
+  margin: 0;
+  padding: 5px 10px;
+  text-align: right; }
